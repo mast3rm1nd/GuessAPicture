@@ -1,0 +1,22 @@
+﻿<Window x:Class="GuessAPicture.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuessAPicture"
+        mc:Ignorable="d"
+        Title="Угадай художника" Height="432" Width="819" WindowStartupLocation="Manual" WindowState="Maximized" ResizeMode="CanMinimize">
+    <Grid Background="Black">
+        <WrapPanel x:Name="wrapPanel" HorizontalAlignment="Left" Height="381" Margin="10,20,0,0" VerticalAlignment="Top" Width="660">
+            <Grid HorizontalAlignment="Left" Height="205" VerticalAlignment="Top" Width="240">
+                <RadioButton x:Name="Variant1_radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <RadioButton x:Name="Variant2_radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="10,29.96,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <RadioButton x:Name="Variant3_radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="10,49.92,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <RadioButton x:Name="Variant4_radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="10,69.88,0,0" VerticalAlignment="Top" Foreground="White"/>
+                <Button x:Name="Answer_button" Content="Ответить" HorizontalAlignment="Left" Margin="10,89.84,0,0" VerticalAlignment="Top" Width="84.91" Click="Answer_button_Click"/>
+                <Label x:Name="Score_label" Content="Тут счёт" HorizontalAlignment="Left" Margin="10,114.8,0,0" VerticalAlignment="Top" Foreground="White"/>
+            </Grid>
+        </WrapPanel>
+
+    </Grid>
+</Window>
